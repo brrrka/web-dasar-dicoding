@@ -1,0 +1,4 @@
+Saya menambahkan beberapa script yang dituliskan langsung pada file index.html nya. Saya menambahkan dua script:
+
+1. Script untuk melakukan smooth scrolling ketika melakukan navigation melalui navbar
+2. Saya menggunakan accordion untuk meringkas tampilan dari sejarah, accordion dapat di klik yang nantinya akan menampilkan panel yang berisi sejarah sesuai dengan tahun yang di klik

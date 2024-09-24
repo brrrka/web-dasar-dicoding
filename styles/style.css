@@ -1,0 +1,220 @@
+body {
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+.content {
+  display: inline;
+  flex: 5;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  padding: 20px;
+  background-color: #508d4e;
+  color: #ffffff;
+}
+
+header {
+  display: inline;
+}
+
+.jumbotron {
+  background-color: #508d4e;
+  color: #ffffff;
+  padding: 60px;
+}
+
+header h1,
+header h2 {
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #80af81;
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  display: inline;
+  align-self: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container h3 {
+  color: #508d4e;
+  padding: 20px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logo {
+  width: 100%;
+  max-width: 60px;
+  margin-left: 20px;
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 10px;
+}
+
+.departemenIcon {
+  width: 100%;
+  max-width: 150px;
+}
+
+.departemenContent {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #508d4e;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profileImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.desc {
+  text-align: justify;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.logoImage {
+  width: 100%;
+  max-width: 300px;
+}
+
+.divisiList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #508d4e;
+  border-radius: 30px;
+  width: 28%;
+  background-color: #d6efd8;
+  transition: transform 0.1s ease;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Memperbesar card saat hover */
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.divisiLayout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.divisiIcon {
+  width: 100%;
+  max-width: 70px;
+}
+
+@media only screen and (max-width: 1000px) {
+  main {
+    flex-direction: column;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  .departemenContent {
+    flex-direction: column;
+  }
+}
+
+figcaption {
+  text-align: center;
+}
+
+.panel {
+  display: none;
+}
+
+.accordion {
+  cursor: pointer;
+}
+
+.accordion:hover {
+  background-color: #f0f0f0;
+}
